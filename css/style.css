@@ -68,6 +68,7 @@ a{
     display: flex;
     justify-content: space-between;
     padding: .4rem 2rem;
+   
 }
 
 .pantalla-principal{
@@ -91,6 +92,8 @@ a{
     height: 40rem;
 
 }
+
+
 
 .encabezado__menu a{
     padding: 2rem;
