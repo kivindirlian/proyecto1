@@ -2,7 +2,12 @@
 :root{
     --primario: #352929;
     --blanco : #fff;
-    --terciario : rgb(194 190 212 / 46%);;
+    --terciario : rgb(194 190 212 / 46%);
+    --cuatro : #1f7119;
+
+    --tipoUno: 'Amaranth', sans-serif;
+    --tipoDos :  'Oleo Script Swash Caps', cursive;
+
 }
 
 html{
@@ -23,12 +28,16 @@ body{
 
 }
 
+h1, h2, h3{
+    font-family: var(--tipoDos);
+}
+
 img{width: 32rem;}
 
 p{
     font-size: 1.8rem;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: var(--tipoUno);
+    font-size: 700;
     margin: 0;
 
 }
@@ -37,6 +46,7 @@ a{
 
     color:var(--blanco);
     text-decoration: none;
+    font-family: var(--tipoUno);
 }
 
 .btn__a{
@@ -48,7 +58,7 @@ a{
 }
 
 .btn__a:hover{
-    background-color: blue;
+    background-color: var(--cuatro);
 }
 
 /* Header */
